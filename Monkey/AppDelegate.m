@@ -47,6 +47,7 @@
 #import "UMessage.h"
 
 #import "BaseNavigationController.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 @implementation AppDelegate
 
 - (BaseNavigationController *)initlizerNavigationControllerWithRootViewController:(UIViewController *)rootViewController {
@@ -55,6 +56,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [BuddyBuildSDK setup];
+    
     // Override point for customization after application launch.
     
     UserRankViewController *languageRank=[[UserRankViewController alloc] init];
