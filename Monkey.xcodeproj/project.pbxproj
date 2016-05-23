@@ -1446,6 +1446,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = www.coderyi.com;
 				TargetAttributes = {
+					A1FC32A01B25D90B00FCBCE7 = {
+						DevelopmentTeam = XYL49Z8YJS;
+					};
 					A1FC32C11B25D90B00FCBCE7 = {
 						TestTargetID = A1FC32A01B25D90B00FCBCE7;
 					};
@@ -1953,7 +1956,7 @@
 					"$(PROJECT_DIR)/Monkey/Vendor/UM/UMessage_Sdk_1.1.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "01f41bc9-42bc-47c8-83f9-21c18855bb81";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1980,7 +1983,7 @@
 					"$(PROJECT_DIR)/Monkey/Vendor/UM/UMessage_Sdk_1.1.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "01f41bc9-42bc-47c8-83f9-21c18855bb81";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
